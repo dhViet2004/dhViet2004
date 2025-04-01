@@ -1,3 +1,9 @@
+ // https://mvnrepository.com/artifact/org.neo4j.driver/neo4j-java-driver
+    implementation("org.neo4j.driver:neo4j-java-driver:5.28.4")
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly("org.projectlombok:lombok:1.18.38")
+    annotationProcessor("org.projectlombok:lombok:1.18.38")
 import dao.DoctorDAO;
 import dao.DoctorDAOImpl;
 import modal.Doctor;
